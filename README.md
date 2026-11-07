@@ -14,7 +14,7 @@
 name:      Salah Said
 role:      Cloud & DevOps Engineer
 education: B.Sc. IT & Computer Science — Sinai University (Exp. Aug 2027)
-focus:     AWS • Terraform • Docker • CI/CD • Linux • SRE
+focus:     AWS • Terraform • Docker • CI/CD • Linux • SRE • GCP • Azure
 internships:
   - Vosyn Inc.   (Remote — Canada)
   - Ghaymah      (Remote — Egypt)
