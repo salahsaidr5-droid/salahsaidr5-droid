@@ -2,16 +2,7 @@
 
 <img src="assets/header.svg" alt="Salah Said – Cloud & DevOps Engineer" width="100%" />
 
-<br/>
-
-<img src="https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-<img src="https://img.shields.io/badge/RHCSA-Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white" />
-<img src="https://img.shields.io/badge/Terraform-IaC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=salahsaidr5-droid&label=Profile%20Views&color=ff9900&style=flat-square" />
+<img src="assets/badges.svg" alt="Certifications & core skills" width="100%" />
 
 </div>
 
