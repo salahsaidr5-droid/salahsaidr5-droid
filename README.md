@@ -14,7 +14,7 @@ role:      Cloud & DevOps Engineer
 focus:     AWS • Terraform • Docker • CI/CD • Linux
 internships:
   - Vosyn Inc.   (Remote — Canada)
-  - Ghaymah
+  - Ghaymah      (Remote — Egypt)
 certified: AWS Solutions Architect – Associate ✅
 ```
 
