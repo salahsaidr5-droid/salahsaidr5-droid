@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Salah Said – Cloud & DevOps Engineer" width="100%" />
+<img src="https://raw.githubusercontent.com/salahsaidr5-droid/salahsaidr5-droid/main/assets/header.svg?v=2" alt="Salah Said – Cloud & DevOps Engineer" width="100%" />
 
-<img src="assets/badges.svg" alt="Certifications & core skills" width="100%" />
+<img src="https://raw.githubusercontent.com/salahsaidr5-droid/salahsaidr5-droid/main/assets/badges.svg?v=2" alt="Certifications & core skills" width="100%" />
 
 </div>
 
@@ -95,6 +95,6 @@ Cloud & DevOps Engineer with hands-on internship experience at **Vosyn Inc.** an
 
 <br/><br/>
 
-<img src="assets/footer.svg" alt="footer" width="100%" />
+<img src="https://raw.githubusercontent.com/salahsaidr5-droid/salahsaidr5-droid/main/assets/footer.svg?v=2" alt="footer" width="100%" />
 
 </div>
