@@ -45,16 +45,6 @@ Final-year IT & Computer Science student and **AWS Certified Solutions Architect
 
 ---
 
-## 🧪 Projects
-
-- 🐳 [**containerized-microservices-aws**](https://github.com/salahsaidr5-droid/containerized-microservices-aws) — Migrated a monolithic Node.js app into 3 microservices on ECS Fargate with Cloud Map service discovery, ALB path-based routing, Secrets Manager, and blue/green CodeDeploy, provisioned with Terraform.
-- ☁️ [**Cloud_Based-Photo**](https://github.com/salahsaidr5-droid/Cloud_Based-Photo) — Serverless AWS architecture built with Terraform: CloudFront + S3 frontend, API Gateway and Lambda in a private subnet, DynamoDB via VPC Endpoints (no NAT Gateway), designed to stay within the AWS Free Tier.
-- 💾 [**AWS-Automated-Log-Backup**](https://github.com/salahsaidr5-droid/AWS-Automated-Log-Backup) — Automated log backup infrastructure built with Terraform and Bash — includes VPC, EC2, NAT Gateway, S3 Gateway Endpoint, and IAM-secured access.
-- 🔐 [**aws-vpc-security-architecture**](https://github.com/salahsaidr5-droid/aws-vpc-security-architecture) — Highly available AWS VPC with public/private subnets, NAT Gateways, Bastion Host, Application Load Balancer, Auto Scaling, and strict security controls.
-- 🧱 [**multi-container-webapp-docker**](https://github.com/salahsaidr5-droid/multi-container-webapp-docker) — 3-tier app with Docker Compose (Nginx reverse proxy, Flask API, MySQL) on a custom bridge network with persistent named volumes; only Nginx is exposed to the host.
-
----
-
 ## 🛠️ Skills & Tools
 
 <div align="center">
