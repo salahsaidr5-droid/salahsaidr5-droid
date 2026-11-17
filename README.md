@@ -14,37 +14,44 @@
 name:      Salah Said
 role:      Cloud & DevOps Engineer
 education: B.Sc. IT & Computer Science — Sinai University (Exp. Aug 2027)
-focus:     AWS • Terraform • Docker • CI/CD • Linux • SRE • GCP • Azure
+focus:     AWS • Terraform • Docker • CI/CD • Linux • GCP
 internships:
   - Vosyn Inc.   (Remote — Canada)
   - Ghaymah      (Remote — Egypt)
 certified: AWS Solutions Architect – Associate ✅
 ```
 
-Final-year IT & Computer Science student and **AWS Certified Solutions Architect – Associate** with hands-on DevOps and cloud engineering internship experience at **Vosyn Inc.** and **Ghaymah**. I design secure, highly available AWS architectures (VPC, ALB, Auto Scaling, IAM) and automate infrastructure and CI/CD pipelines with Terraform, Docker, GitHub Actions, Python, and Bash. Red Hat certified (SysAdmin I) with a strong interest in hybrid cloud solutions and site reliability engineering.
-
----
-
-## 🚀 Currently
-
-> **Cloud Engineering Intern @ Vosyn Inc.** *(Remote — Canada)*
-> Building an **AI Gateway Real-Time Voice pipeline** — PCM audio streaming, GCP Speech APIs, Python, Docker, CI/CD.
+Final-year IT & Computer Science student and **AWS Certified Solutions Architect – Associate** with hands-on Cloud & DevOps experience through internships at **Vosyn Inc.** and **Ghaymah**. I design highly available AWS architectures and automate infrastructure provisioning and CI/CD pipelines with Terraform, Docker, and GitHub Actions. Experienced in Python, Bash, and Linux administration, with exposure to GCP and cloud cost optimization.
 
 ---
 
 ## 💼 Experience
 
-### Cloud Engineering Intern — Vosyn Inc. *(Remote — Canada)* · May 2026 – Present
-- Designed and built an **AI Gateway Real-Time Voice pipeline** using PCM audio streaming, GCP Speech APIs, and Python; containerized with Docker and integrated into CI/CD on Linux.
-- Collaborated with cross-functional remote teams to deliver cloud-native solutions aligned with enterprise scalability requirements.
-- Built a **DASH/MPD manifest-stitching engine** (Python, lxml) for a Dynamic Ad Insertion (DAI) proof of concept; validated single- and multi-ad-break timeline alignment end-to-end in a real DASH player.
+### Cloud Engineering Intern — Vosyn Inc. *(Remote — Canada)* · May 2026 – Nov 2026
+- Designed and developed an **AI Gateway real-time voice processing pipeline** using Python, PCM audio streaming, and Google Cloud Speech APIs.
+- Developed a **DASH/MPD manifest-stitching engine** (Python, lxml) for a Dynamic Ad Insertion (DAI) proof of concept.
+- Performed end-to-end testing of single and multiple ad-break scenarios in a real DASH player, validating timeline alignment and playback continuity.
+- Reviewed GCP costs, identifying costly cloud services and idle persistent disks as major cost drivers; recommended right-sizing, scheduled shutdowns, and snapshot-based cleanup.
+- Evaluated Compute Engine vs. Cloud Run for a WebSocket-based real-time backend, recommending Compute Engine based on WebSocket connection requirements and Cloud Run's request timeout limitations.
+- Proposed consolidating frontend and backend CI workloads onto a single VM using labeled self-hosted GitHub Actions runners, and outlined a recovery plan for the stalled CI/CD pipeline.
+- Containerized applications using Docker and integrated CI/CD workflows for automated builds and deployments in a Linux environment.
 
-### DevOps Intern — Ghaymah *(Remote — Egypt)* · Jan 2025 – May 2025
-- Automated infrastructure workflows with Python and Bash scripts, increasing operational efficiency.
+### DevOps Intern — Ghaymah *(Remote — Cairo)* · Jan 2025 – May 2025
+- Automated infrastructure workflows using Python and Bash scripts, increasing operational efficiency.
 - Managed AWS S3 storage and provisioned cloud resources ensuring high availability.
-- Implemented Docker containers to streamline application deployment.
+- Implemented Docker containers for applications to streamline deployment processes.
 - Conducted log analysis and monitored system health using Grafana dashboards and alerts.
-- Maintained Red Hat-based Linux servers for secure and stable production environments.
+- Maintained Linux servers (Red Hat-based) for secure and stable production environments.
+
+---
+
+## 🧪 Projects
+
+- 🐳 [**containerized-microservices-aws**](https://github.com/salahsaidr5-droid/containerized-microservices-aws) — Migrated a monolithic Node.js app into 3 microservices on ECS Fargate with Cloud Map service discovery, ALB path-based routing, Secrets Manager, and blue/green CodeDeploy, provisioned with Terraform.
+- ☁️ [**Cloud_Based-Photo**](https://github.com/salahsaidr5-droid/Cloud_Based-Photo) — Serverless AWS architecture built with Terraform: CloudFront + S3 frontend, API Gateway and Lambda in a private subnet, DynamoDB via VPC Endpoints (no NAT Gateway), designed to stay within the AWS Free Tier.
+- 💾 [**AWS-Automated-Log-Backup**](https://github.com/salahsaidr5-droid/AWS-Automated-Log-Backup) — Automated log backup infrastructure built with Terraform and Bash — includes VPC, EC2, NAT Gateway, S3 Gateway Endpoint, and IAM-secured access.
+- 🔐 [**aws-vpc-security-architecture**](https://github.com/salahsaidr5-droid/aws-vpc-security-architecture) — Highly available AWS VPC with public/private subnets, NAT Gateways, Bastion Host, Application Load Balancer, Auto Scaling, and strict security controls.
+- 🧱 [**multi-container-webapp-docker**](https://github.com/salahsaidr5-droid/multi-container-webapp-docker) — 3-tier app with Docker Compose (Nginx reverse proxy, Flask API, MySQL) on a custom bridge network with persistent named volumes; only Nginx is exposed to the host.
 
 ---
 
@@ -63,7 +70,6 @@ Final-year IT & Computer Science student and **AWS Certified Solutions Architect
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white" />
 <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 
@@ -79,7 +85,7 @@ Final-year IT & Computer Science student and **AWS Certified Solutions Architect
 | 🐳 **Containers & CI/CD** | Docker, GitHub Actions, CI/CD Pipelines |
 | ⚡ **Automation** | Bash Scripting, Python |
 | 📊 **Monitoring & Systems** | Grafana (Dashboards & Alerts), Linux Administration (Red Hat) |
-| 🌐 **Networking** | VPC Design, Subnets, NAT, NACLs, Security Groups, DNS (Route53) |
+| 🌐 **Networking** | VPC Design, Subnets, NAT, NACLs, Security Groups, DNS (Route53); CCNA training completed (routing, switching, TCP/IP) |
 | 🔌 **Integration** | API Integration & Testing, Git & GitHub |
 
 ---
@@ -95,9 +101,9 @@ Final-year IT & Computer Science student and **AWS Certified Solutions Architect
 </div>
 
 - 🏆 **AWS Certified Solutions Architect – Associate (SAA)** — Amazon Web Services *(Oct 2026 – Oct 2029)* · [Verify on Credly](https://www.credly.com/badges/87302574-be0f-4afe-98ce-635f9b0a2955)
-- 🐧 **Red Hat Certified System Administrator I (RHCSA)** — MaharaTech ITI *(June 2025)*
-- ☁️ **AWS Cloud 101** — Amazon Web Services *(July 2025)*
-- 🌱 **AWS Emerging Talent** — Amazon Web Services *(May 2025 – July 2027)*
+- 🐧 **Red Hat System Administration I (RH124)** — Certificate of Completion, MaharaTech ITI *(June 2025)* · [View certificate](https://drive.google.com/file/d/1hFzf2tM9djpDhk4YhslaNRioBqkQG5vQ/view?usp=sharing)
+- ☁️ **AWS Educate Introduction to Cloud 101** — Amazon Web Services *(July 2025)* · [Verify on Credly](https://www.credly.com/badges/1c0a978f-3f1f-4733-92e4-a4097a8110a1)
+- 🌱 **AWS Emerging Talent Community Member** — Amazon Web Services *(2025)*
 
 ---
 
